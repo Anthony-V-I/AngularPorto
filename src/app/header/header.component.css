@@ -1,0 +1,44 @@
+@keyframes wave {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    25% {
+      transform: translateY(-5px);
+    }
+    50% {
+      transform: translateY(5px);
+    }
+    75% {
+      transform: translateY(-5px);
+    }
+  }
+  
+  .jumbotron {
+    padding: 2rem 1rem;
+    background: linear-gradient(to left, #e0dce7 0%,  #f5f56e 50%, #dcdad4 100%);
+    text-align: center; 
+    font-family:  "Lucida Handwriting", "Brush Script MT", cursive;
+  }
+  
+  .wavy-text {
+    font-size: 24px; /* Adjust the font size as needed */
+    animation: wave 1s infinite;
+  }
+
+.text-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.display-4 {
+    margin-bottom: 0.5rem; /* Adjust Margin for better spacing */
+}
+
+h3 {
+    margin-top: 0;
+}
+
+.bg-gradient {
+    background: radial-gradient(circle, #ffcc00, #ff6600);
+  }

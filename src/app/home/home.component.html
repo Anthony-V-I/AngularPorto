@@ -1,0 +1,28 @@
+<div class="container custom-container">
+    <div class="row">
+        <!-- About Me -->
+        <div class="col-lg shadow custom-card m-1">
+            <div class="text-center about-me">
+                <h2>About Me</h2>
+                <img src="../../assets/crop.jpg" alt="profile picture" width="256" height="256" class="rounded-circle">
+                <p>A Bachelor of Computer Engineering from Bina Nusantara University, with 1 year of experience in the IT Support division at PT Maybank Finance Indonesia. Familiar with React, Angular, JavaScript, and CSS.</p>
+            </div>
+        </div>
+        <!-- Featured Project -->
+        <div class="col-lg shadow custom-card m-1">
+            <div class="text-center featured-project">
+                <h2>Featured Project</h2>
+                <h4>{{featuredProject.name}}</h4>
+            </div>
+
+            <carousel>
+                <div *ngFor="let picture of featuredProject.pictures">
+                    <slide><img src="{{picture}}" alt="slide" style="display: block; width: 100%;"></slide>
+                </div>
+            </carousel>
+
+            <p class="mt-2">{{featuredProject.summary}}</p>
+            <p>Visit the Portfolio section to learn more</p>
+        </div>
+    </div>
+</div>

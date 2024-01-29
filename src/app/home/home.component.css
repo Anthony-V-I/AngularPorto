@@ -1,0 +1,47 @@
+
+   
+    .custom-container {
+        margin-top: 50px;
+    }
+
+   
+    .custom-card {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 15px;
+        overflow: hidden;
+        transition: transform 0.3s ease;
+    }
+
+    .custom-card:hover {
+        transform: scale(1.05);
+    }
+
+    /* About Me Styling */
+    .about-me {
+        padding: 20px;
+    }
+
+    .about-me img {
+        border-radius: 50%;
+        margin-top: 20px;
+    }
+
+    .featured-project {
+        padding: 20px;
+    }
+
+    .featured-project h4 {
+        color: #3498db; 
+        margin-top: 10px;
+    }
+
+    .carousel-inner {
+        border-radius: 10px;
+    }
+
+    .carousel img {
+        border-radius: 10px;
+        max-height: 300px;
+        object-fit: cover;
+    }

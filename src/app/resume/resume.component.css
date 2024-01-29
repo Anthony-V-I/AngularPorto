@@ -1,0 +1,51 @@
+.btn-primary {
+    background-color: #3498db;
+    color: #ffffff;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+}
+
+.accordion {
+    background-color: #6c5ce7;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.accordion-group {
+    border-bottom: 1px solid #ddd;
+}
+
+.accordion-group:last-child {
+    border-bottom: none;
+}
+
+.accordion-heading {
+    background-color: #3498db; /* New background color for accordion card */
+    color: #fff;
+    padding: 15px;
+    border-bottom: 1px solid #2980b9;
+    cursor: pointer;
+}
+
+.accordion-body {
+    padding: 15px;
+}
+
+h2 {
+    color: #3498db; /* Blue */
+}
+
+h3.text-primary {
+    color: #3498db; /* Blue */
+}
+
+h3 {
+    color: #3498db; /* Blue */
+}
